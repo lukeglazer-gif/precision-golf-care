@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Precision Golf Care</title>
+
+    <!-- Inter font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
     <style>
         body {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Inter', sans-serif;
             background-color: #f7f7f2;
-            color: #2a2a2a;
+            color: #1f1f1f;
             margin: 0;
             padding: 60px 20px;
             line-height: 1.8;
@@ -15,10 +19,10 @@
         }
 
         .container {
-            max-width: 800px;
+            max-width: 850px;
             margin: 0 auto;
             background: white;
-            padding: 50px;
+            padding: 60px 50px;
             border-radius: 14px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.08);
         }
@@ -26,39 +30,45 @@
         h1 {
             font-size: 42px;
             margin-bottom: 20px;
+            color: #0f2f1f; /* Deep sophisticated green */
+            font-weight: 600;
         }
 
         p {
             font-size: 20px;
-            margin-bottom: 30px;
-        }
-
-        .back-btn {
-            background-color: #d4af37;
-            color: #1f1f1f;
-            padding: 12px 28px;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 16px;
-            font-weight: 600;
-            margin-top: 40px;
-        }
-
-        .back-btn:hover {
-            background-color: #b8962f;
+            margin-bottom: 25px;
         }
 
         .placeholder-box {
             margin-top: 40px;
-            padding: 40px;
-            border: 2px dashed #d4af37;
-            border-radius: 10px;
+            padding: 50px;
+            border: 2px dashed #0f2f1f; /* Dark green border */
+            border-radius: 12px;
             font-size: 18px;
-            color: #555;
+            color: #444;
+            background-color: #f9faf9;
+        }
+
+        .back-btn {
+            background-color: #0f2f1f; /* Dark green */
+            color: white;
+            padding: 14px 32px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 17px;
+            font-weight: 500;
+            margin-top: 40px;
+            transition: 0.3s ease;
+        }
+
+        .back-btn:hover {
+            background-color: #154a31; /* Slightly lighter green */
+            box-shadow: 0 6px 18px rgba(0,0,0,0.15);
         }
     </style>
 </head>
+
 <body>
 
     <div class="container">
@@ -69,10 +79,13 @@
 
         <div class="placeholder-box">
             Google Form Coming Soon  
-            (Perfect spot for booking requests, enquiries, or service questions)
+            <br>
+            (Perfect for booking requests, enquiries, or service questions)
         </div>
 
-        <button class="back-btn" onclick="window.location.href='index.html'">Back to Home</button>
+        <button class="back-btn" onclick="window.location.href='index.html'">
+            Back to Home
+        </button>
     </div>
 
 </body>
