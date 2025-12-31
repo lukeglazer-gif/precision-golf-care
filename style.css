@@ -80,6 +80,7 @@ footer {
 }
 /* Price List Styling */
 #pricing {
+    font-family: 'Inter', sans-serif; /* Enforce Inter */
     max-width: 1000px;
     margin: 60px auto;
     padding: 40px 30px;
@@ -89,6 +90,7 @@ footer {
 }
 
 #pricing h2 {
+    font-family: 'Inter', sans-serif; /* Enforce Inter */
     text-align: center;
     font-size: 36px;
     margin-bottom: 40px;
@@ -101,6 +103,7 @@ footer {
 }
 
 .price-block h3 {
+    font-family: 'Inter', sans-serif; /* Enforce Inter */
     font-size: 26px;
     margin-bottom: 20px;
     color: #0f2f1f;
@@ -110,6 +113,7 @@ footer {
 table {
     width: 100%;
     border-collapse: collapse;
+    font-family: 'Inter', sans-serif; /* Enforce Inter */
     font-size: 18px;
 }
 
@@ -119,11 +123,13 @@ table th {
     padding: 14px;
     text-align: left;
     font-weight: 500;
+    letter-spacing: 0.3px;
 }
 
 table td {
     padding: 14px;
     border-bottom: 1px solid #ddd;
+    letter-spacing: 0.2px;
 }
 
 table tr:hover td {
