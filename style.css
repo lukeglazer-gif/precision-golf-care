@@ -135,3 +135,25 @@ table td {
 table tr:hover td {
     background-color: #f4f7f4;
 }
+/* Return Home Button */
+.return-home {
+    display: block;
+    margin: 40px auto 0 auto;
+    background-color: #0f2f1f; /* deep green */
+    color: white;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    transition: 0.3s ease;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.return-home:hover {
+    background-color: #154a31; /* lighter green hover */
+    box-shadow: 0 8px 22px rgba(0,0,0,0.15);
+}
