@@ -78,3 +78,54 @@ footer {
     font-size: 15px;
     letter-spacing: 0.4px;
 }
+/* Price List Styling */
+#pricing {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 40px 30px;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+#pricing h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #0f2f1f; /* deep green */
+    font-weight: 600;
+}
+
+.price-block {
+    margin-bottom: 50px;
+}
+
+.price-block h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #0f2f1f;
+    font-weight: 600;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+table th {
+    background-color: #0f2f1f;
+    color: white;
+    padding: 14px;
+    text-align: left;
+    font-weight: 500;
+}
+
+table td {
+    padding: 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover td {
+    background-color: #f4f7f4;
+}
