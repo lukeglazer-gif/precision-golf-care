@@ -78,68 +78,79 @@ footer {
     font-size: 15px;
     letter-spacing: 0.4px;
 }
-/* Price List Styling */
+/* Luxury Pricing Section */
 #pricing {
-    font-family: 'Inter', sans-serif; /* Enforce Inter */
     max-width: 1000px;
     margin: 60px auto;
-    padding: 40px 30px;
-    background: white;
+    padding: 50px 40px;
+    background: #ffffff;
     border-radius: 14px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    font-family: 'Inter', sans-serif;
 }
 
 #pricing h2 {
-    font-family: 'Inter', sans-serif; /* Enforce Inter */
     text-align: center;
-    font-size: 36px;
-    margin-bottom: 40px;
-    color: #0f2f1f; /* deep green */
+    font-size: 38px;
+    margin-bottom: 50px;
+    color: #0f2f1f; /* deep luxury green */
     font-weight: 600;
+    letter-spacing: 0.5px;
 }
 
+/* Each pricing block */
 .price-block {
-    margin-bottom: 50px;
+    background: #f9faf9;
+    padding: 30px 25px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+    border: 1px solid #e6eee6;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.05);
 }
 
 .price-block h3 {
-    font-family: 'Inter', sans-serif; /* Enforce Inter */
     font-size: 26px;
     margin-bottom: 20px;
     color: #0f2f1f;
     font-weight: 600;
 }
 
-table {
+/* Table styling */
+.price-block table {
     width: 100%;
     border-collapse: collapse;
-    font-family: 'Inter', sans-serif; /* Enforce Inter */
     font-size: 18px;
 }
 
-table th {
+.price-block th {
     background-color: #0f2f1f;
     color: white;
     padding: 14px;
     text-align: left;
     font-weight: 500;
     letter-spacing: 0.3px;
+    border-radius: 6px 6px 0 0;
 }
 
-table td {
+.price-block td {
     padding: 14px;
-    border-bottom: 1px solid #ddd;
-    letter-spacing: 0.2px;
+    border-bottom: 1px solid #dcdcdc;
+    color: #222;
 }
 
-table tr:hover td {
-    background-color: #f4f7f4;
+.price-block tr:last-child td {
+    border-bottom: none;
 }
+
+.price-block tr:hover td {
+    background-color: #eef3ee;
+}
+
 /* Return Home Button */
 .return-home {
     display: block;
-    margin: 40px auto 0 auto;
-    background-color: #0f2f1f; /* deep green */
+    margin: 50px auto 0 auto;
+    background-color: #0f2f1f;
     color: white;
     padding: 14px 32px;
     border: none;
@@ -154,6 +165,6 @@ table tr:hover td {
 }
 
 .return-home:hover {
-    background-color: #154a31; /* lighter green hover */
+    background-color: #154a31;
     box-shadow: 0 8px 22px rgba(0,0,0,0.15);
 }
